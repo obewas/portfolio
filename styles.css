@@ -60,16 +60,21 @@ header {
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--primary);
+    text-decoration: none;
 }
 .navbar{
     display: flex;
 
+}
+.navbar li {
+    text-decoration: none;
 }
 .navbar a {
     font-size: 1rem;
     padding: 10px 20px;
     color: #222435;
     font-weight: 500;
+    text-decoration: none;
 }
 header .navbar a:hover {
     background: var(--primary);
@@ -97,6 +102,7 @@ header .navbar a:hover {
 
 .home-text {
 max-width: 500px;
+color: rgb(17, 141, 141);
 }
 
 .home-text h1 {
@@ -333,6 +339,9 @@ font-weight: 600;
 
 color: #01a29c;
 
+}
+.skills-box span {
+     color: aqua;
 }
 
 .skills-box h3 {

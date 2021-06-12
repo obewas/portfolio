@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive website</title>
     <link rel="stylesheet" href="styles.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
 <body>
@@ -18,7 +18,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#porfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -26,8 +26,9 @@
     <section class="home" id="home">
         <div class="home-text">
             <h1>Hi, I'm <span>John Otieno</span></h1>
-            <h2>Freelance Web Developer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quae doloremque dolores. Fugit officiis, animi placeat, esse repellendus, doloribus error corporis consectetur architecto eveniet eligendi earum accusamus obcaecati eum officia!</p>
+            <h2>A avid Freelance Web Developer</h2>
+            <p>I practice web development as a passion and a hobby. I enjoy creating systems and apps aimed at providing solutions to many challenges.</p>
+            <br>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
         </section>
@@ -125,19 +126,31 @@
                         <p>44 street NBI, Kenya</p>
                     </div>
                     <div class="info-box social">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/obewas/"><i class="fab fa-github"></i></a>
                     </div>
 
                 </div>
-                <div class="contact-form">
+                <div class="form-group">
                     <form action="">
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Enter your email">
-                        <textarea name="" value="Send" id="" cols="30" rows="10" placeholder="Write your message here ..."></textarea>
-                        <input type="button" value="Send" class="contact-button">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="Your Name" name="name">
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Enter your email" name="email">
+
+                        </div>
+                        <div>
+                            <label for="text-area"></label>
+                            <textarea name="text-area" value="Send" id="" cols="30" rows="10" placeholder="Write your message here ..."></textarea>
+
+                        </div>
+                        
+                        <input type="button" value="Send" class="btn btn-success">
                     </form>
                 </div>
             </div>
